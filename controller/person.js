@@ -20,9 +20,21 @@ async function getPersonById(req, res) {
     res.status(500).json({ message: 'Error retrieving person' });
     }
    }
+
+async function getPersonByEmail(req, res){
+    const {email} = req.params;
+    try{
+        const person = await PersonDao.getPersonByEmail(email);
+        res.json(person);
+    }catch(error){
+        console.error(error);
+        res.status(500).json({message: 'Erro retrieving person'});
+    }
+}
+
    async function updatePersonById(req, res) {
     const { id } = req.params;
-    const { name, email, password } = req.body;
+    const { name, lastname,email, username, role,password } = req.body;
     const person = { name, lastname,email, username, role,password };
     try {
     const updatedPerson = await PersonDao.updatePersonById(id, person);
