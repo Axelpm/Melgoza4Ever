@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Vistas\AgregarBilletera.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Vistas\CarritoCliente.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Vistas\ConsultarBilleteras.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Vistas\ConsultarProducto.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Vistas\ConsultarProductoAdministrador.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Vistas\ConsultarProductoCliente.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Vistas\EditarBilletera.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Vistas\EditarProducto.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Vistas\InicioSesion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Vistas\MenuPrincipalAdministrador.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Vistas\MenuPrincipalCliente.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Vistas\RealizarCompra.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Vistas\RegistrarProducto.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Vistas\AgregarBilletera.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Vistas\CarritoCliente.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Vistas\ConsultarBilleteras.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Vistas\ConsultarProducto.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Vistas\ConsultarProductoAdministrador.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Vistas\ConsultarProductoCliente.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Vistas\EditarBilletera.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Vistas\EditarProducto.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Vistas\InicioSesion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Vistas\MenuPrincipalAdministrador.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Vistas\MenuPrincipalCliente.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Vistas\RealizarCompra.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Vistas\RegistrarProducto.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Logica\bin\Debug\net6.0-windows\Logica.deps.json
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Logica\bin\Debug\net6.0-windows\Logica.dll
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Logica\bin\Debug\net6.0-windows\Logica.pdb
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Logica\obj\Debug\net6.0-windows\Logica.csproj.AssemblyReference.cache
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Logica\obj\Debug\net6.0-windows\Logica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Logica\obj\Debug\net6.0-windows\Logica.AssemblyInfoInputs.cache
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Logica\obj\Debug\net6.0-windows\Logica.AssemblyInfo.cs
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Logica\obj\Debug\net6.0-windows\Logica.csproj.CoreCompileInputs.cache
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Logica\obj\Debug\net6.0-windows\Logica.dll
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Logica\obj\Debug\net6.0-windows\refint\Logica.dll
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Logica\obj\Debug\net6.0-windows\Logica.pdb
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Logica\obj\Debug\net6.0-windows\ref\Logica.dll

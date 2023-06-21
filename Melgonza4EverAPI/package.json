@@ -1,0 +1,32 @@
+{
+    "name": "m4e-api",
+    "version": "0.0.1",
+    "description": "Services API for M4E",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MangoFizz/m4e-api.git"
+    },
+    "author": "MangoFizz",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MangoFizz/m4e-api/issues"
+    },
+    "homepage": "https://github.com/MangoFizz/m4e-api#readme",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.0",
+        "loglevel": "^1.8.1",
+        "loglevel-plugin-prefix": "^0.8.4",
+        "sequelize": "^6.31.1",
+        "sqlite3": "^5.1.6",
+        "swagger-ui-express": "^4.6.3"
+    }
+}

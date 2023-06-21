@@ -1,0 +1,15 @@
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Dominio\bin\Debug\net6.0-windows\Dominio.deps.json
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Dominio\bin\Debug\net6.0-windows\Dominio.dll
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Dominio\bin\Debug\net6.0-windows\Dominio.pdb
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Dominio\bin\Debug\net6.0-windows\Logica.dll
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Dominio\bin\Debug\net6.0-windows\Logica.pdb
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Dominio\obj\Debug\net6.0-windows\Dominio.csproj.AssemblyReference.cache
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Dominio\obj\Debug\net6.0-windows\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Dominio\obj\Debug\net6.0-windows\Dominio.AssemblyInfoInputs.cache
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Dominio\obj\Debug\net6.0-windows\Dominio.AssemblyInfo.cs
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Dominio\obj\Debug\net6.0-windows\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Dominio\obj\Debug\net6.0-windows\Dominio.csproj.CopyComplete
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Dominio\obj\Debug\net6.0-windows\Dominio.dll
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Dominio\obj\Debug\net6.0-windows\refint\Dominio.dll
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Dominio\obj\Debug\net6.0-windows\Dominio.pdb
+C:\Users\super\OneDrive\Documentos\Melgoza4Ever\Melgoza4Ever\Dominio\obj\Debug\net6.0-windows\ref\Dominio.dll

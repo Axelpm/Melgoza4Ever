@@ -1,0 +1,27 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "description": "M4E services API",
+      "version": "0.0.1",
+      "title": "Melgoza4Ever"
+    },
+    "servers": [
+      {
+        "url": "http://localhost:8080/",
+        "description": "Local development server"
+      }
+    ],
+    "paths": {
+      "/test": {
+        "get": {
+          "summary": "Test endpoint",
+          "operationId": "test",
+          "responses": {
+            "200": {
+              "description": "It works!"
+            }
+          }
+        }
+      }
+    }
+}

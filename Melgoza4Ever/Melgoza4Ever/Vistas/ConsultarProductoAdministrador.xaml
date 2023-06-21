@@ -1,0 +1,125 @@
+﻿<Page x:Class="Melgoza4Ever.Vistas.ConsultarProductoAdministrador"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Melgoza4Ever.Vistas"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="1366"
+      Title="ConsultarProductoAdministrador"
+      Background="White">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="130" />
+            <RowDefinition Height="200*" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <TextBox
+            Name="text_SearchBy"
+            Grid.Row="0"
+            Width="200"
+            Margin="117,79,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            FontSize="16"
+            TextWrapping="Wrap" />
+        <Button
+            Name="btn_Search"
+            Grid.Row="0"
+            Width="101"
+            Margin="688,78,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Btn_Search_Click"
+            Content="Buscar"
+            FontSize="16" />
+        <DataGrid
+            x:Name="tableProductos"
+            Grid.Row="1"
+            Width="1280"
+            Height="350"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            AlternatingRowBackground="#E0E0E0"
+            AutoGenerateColumns="False"
+            Background="#F5F5F5"
+            BorderBrush="#2E2E2E"
+            BorderThickness="2,2,2,2"
+            CanUserAddRows="False"
+            CanUserDeleteRows="False"
+            CanUserResizeRows="False"
+            HeadersVisibility="Column"
+            ItemsSource="{Binding Items}"
+            RowHeaderWidth="0">
+            <DataGrid.Resources>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Foreground" Value="#FFFFFF" />
+                    <Setter Property="Background" Value="#2E2E2E" />
+                    <Setter Property="FontSize" Value="14" />
+                    <Setter Property="FontWeight" Value="Bold" />
+                    <Setter Property="Height" Value="40" />
+                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                </Style>
+                <Style TargetType="{x:Type DataGridCell}">
+                    <Setter Property="Foreground" Value="#000000" />
+                    <Setter Property="FontSize" Value="12" />
+                    <Setter Property="Height" Value="30" />
+                    <Setter Property="Padding" Value="10,0,0,0" />
+                </Style>
+            </DataGrid.Resources>
+
+            <DataGrid.Columns>
+                <DataGridTextColumn  FontSize="15" Header="Nombre" Width="200" Binding="{Binding name}"/>
+                <DataGridTextColumn  FontSize="15" Header="Categoria" Width="200" Binding="{Binding category}"/>
+                <DataGridTextColumn  FontSize="15" Header="Descripción" Width="200" Binding="{Binding description}"/>
+                <DataGridTextColumn  FontSize="15" Header="Precio" Width="200" Binding="{Binding price}"/>
+                <DataGridTemplateColumn Header="Editar Producto" MinWidth="200">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="Button_EditarProducto_Click" Content="Editar" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Eliminar Producto" MinWidth="200">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="Button_EliminarProducto_Click" Content="Eliminar" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button
+            Name="btn_Restore"
+            Grid.Row="0"
+            Width="110"
+            Margin="812,78,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Btn_Restore_Click"
+            Content="Restablecer"
+            FontSize="16"
+            RenderTransformOrigin="0.228,1.827" />
+        <Label
+            Grid.Row="0"
+            Margin="25,10,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="Seleccione e ingrese los campos solicitados para la busqueda del contrato"
+            FontSize="16" />
+        <ComboBox
+            Name="comBox_TypeSearch"
+            Grid.Row="0"
+            Width="196"
+            Margin="361,76,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            FontSize="18" />
+        <Label Content="Campo de busqueda:" HorizontalAlignment="Left" Margin="117,48,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Filtro de busqueda:" HorizontalAlignment="Left" Margin="361,46,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Button Content="Agregar Producto" HorizontalAlignment="Left" Margin="1128,0,0,0" Grid.Row="2" VerticalAlignment="Center" FontSize="18" Click="AgregarProducto_Click"/>
+    </Grid>
+</Page>
